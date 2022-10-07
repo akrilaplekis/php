@@ -1,0 +1,99 @@
+body {
+  background-color: #ffdb57;
+}
+
+.landingBtn {
+    background-color: #f4f4f4;
+    border: none;
+    color: #094fc2;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 35px;
+}
+
+.homeButton {
+    width: 67%;
+}
+
+.homeButton:hover {
+    opacity: 0.8;
+}
+
+.grupasBtn {
+    width: 30%;
+    transition: all 0.5s;
+    float: right;
+}
+
+.grupasBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.grupasBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.grupasBtn:hover span {
+    padding-right: 25px;
+}
+
+.grupasBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.textBlock {
+    margin: 6px 6px;
+    height: 90%;
+    width: 64%;
+    padding: 20px;
+    background-color: #ffc334;
+    border-radius: 40px;
+}
+
+.line1 {
+    border-bottom: 5px solid #094fc2;
+    border-radius: 5px;
+}
+
+.landingH2 {
+    border: none;
+    color: #094fc2;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 30px;
+}
+
+.fotoBlock {
+    margin: 6px 6px;
+    width: 15%;
+    padding: 20px;
+    background-color: #ffc334;
+    border-radius: 40px;
+}
+
+.fotoBlock:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+div.folderImg {
+   width:150px;
+   height:150px;
+   background-image:url('folder1.png');
+   margin:5px;
+   align-content: center;
+}
